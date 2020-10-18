@@ -1,5 +1,5 @@
 import express, { Router } from 'express'
-import mongoose, { mongo } from 'mongoose'
+import mongoose from 'mongoose'
 
 import { Invoice } from './schemas/invoice'
 import { Product } from './schemas/product'
